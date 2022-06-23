@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(237, 237, 237)
+}
+.delivery__status--grid{
+  display: grid;
+  grid-template-columns: repeat(3,250px);
+  gap: 10px
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
